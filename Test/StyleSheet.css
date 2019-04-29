@@ -1,0 +1,101 @@
+﻿.drop ul {                                   
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    background: #0094ff;
+    border-radius:5px;
+    padding: 0px;
+    width: 1024px;
+}
+
+    .drop ul li {
+        float: left;
+        position: relative;
+        width: 184px;
+        padding-left:0px;
+        padding-right:20px;
+    }
+
+    .drop ul li a {
+        color: #ffffff;
+        display: block;
+        padding: 10px 10px;
+        position: relative;
+        text-decoration: none;
+    }
+    .drop ul li:hover {
+        background: #0ff;
+        color: #000000;
+    }
+    .drop ul li a:hover {
+        color: #000000;
+    }
+
+    .drop ul ul {
+        display: none;
+        top: 38px;
+        position: absolute;
+        background: #0094ff;
+        border-radius: 0px;
+    }
+
+    .drop ul li:hover ul {
+        display: block;
+        width:inherit;
+        padding:inherit;
+    }
+
+
+    .drop ul ul li {
+        float: none;
+        position: relative;
+        border-top: 1px solid#0094ff;
+        border-bottom: 1px solid#0094ff;
+        width: inherit;
+    }
+
+    .drop ul ul li a {
+        padding: 10px 10px;
+        color: #ffffff;
+        width: 145px;
+        text-align: left;
+        padding-left:20px;
+    }
+    .drop ul ul li a:hover {
+        background: #0ff;
+        color: #000000;
+    }
+.gv {
+    width: 100%;
+    border-radius:10px;
+}
+.gv th {
+    background: #333333;
+    color: #ffffff;
+    height:20px;
+    padding-bottom:10px;
+}
+    .gv tr {
+        height:25px;
+    }
+.gv tr:nth-child(odd) {
+    background: #0ff;
+}
+    .gv a {
+        font: bold 12px Arial;
+        text-decoration: none;
+        background-color: #EEEEEE;
+        color: #333333;
+        padding: 2px 6px 2px 6px;
+        border-top: 1px solid #CCCCCC;
+        border-right: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+        border-left: 1px solid #CCCCCC;
+    }
+    .gv input {
+        background: #fff;
+        border:1px solid #000;
+        height:20px;
+        margin:10px;
+        width:80%;
+    }
